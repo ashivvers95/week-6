@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel = "stylesheet" src = "assets/css/style.css">
+    <title> Weather Dashboard </title>
+</head>
+<body>
+    <!--header-->
+    <nav class="navbar navbar-dark text-light justify-content-center bg-dark font-weight-bold">Weather Dashboard</nav>
+            <div class = "col-2">
+            <!-- search -->
+            
+                <input 
+                class="form-control mr-sm-2" 
+                type="search" 
+                placeholder="Search" 
+                aria-label="Search"
+                id = "input-value" >
+                
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="button">Search</button>
+            </div>
+        <!--search results for current day-->
+        <div class = "container" id = " display">
+            <div class = "row">
+            <h1 class = "name"></h1>
+            <p class = "date"></p>
+            <p class = "desc"></p>
+            <p class = "temp"></p>
+            <p class = "humidity"></p>
+            <p class = "wind-speed"></p>
+            <p class = "uvi"></p>
+            
+            <div class = "row" id = "current-forecast"></div>
+            </div>
+        </div>
+        <!--search results for 5 day (day 1)-->
+        <!--bg-primary-->
+
+        <div class = "row">
+            <div class = "col-2">
+        <div class = "card-body bg-primary" id = " display1">
+        
+            <h3 class = "date1"></h1>
+            <p class = "desc1"></p>
+            <p class = "temp1"></p>
+            <p class = "humidity1"></p>
+        </div>
+        </div>
+        <!--search results for 5 day (day 2)-->
+        <div class = "col-2">
+        <div class = "card-body bg-primary" id = " display2">
+            <h3 class = "date2"></h1>
+            <p class = "desc2"></p>
+            <p class = "temp2"></p>
+            <p class = "humidity2"></p>
+        </div>
+        </div>
+        <!--search results for 5 day (day 3)-->
+        <div class = "col-2">
+        <div class = "card-body bg-primary" id = " display3">
+            <h3 class = "date3"></h1>
+            <p class = "desc3"></p>
+            <p class = "temp3"></p>
+            <p class = "humidity3"></p>
+        </div>
+    </div>
+
+        <!--search results for 5 day (day 4)-->
+        <div class = "col-2">
+        <div class = "card-body bg-primary" id = " display4">
+            <h3 class = "date4"></h1>
+            <p class = "desc4"></p>
+            <p class = "temp4"></p>
+            <p class = "humidity4"></p>
+        </div>
+    </div>
+
+        <!--search results for 5 day (day 5)-->
+        <div class = "col-2">
+        <div class = "card-body bg-primary" id = " display5">
+            <h3 class = "date5"></h1>
+            <p class = "desc5"></p>
+            <p class = "temp5"></p>
+            <p class = "humidity5"></p>
+        </div>
+    </div>
+    </div>
+</div>
+</div>
+    <script src ="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src ="assets/js/script.js"></script>
+    
+</body>
+     
+</html>  
+
+
+
+
+
+<!--search results for 5 day
+<div class = "container" id = " display">
+    <h1 class = "name"></h1>
+    <p class = "desc"></p>
+    <p class = "temp"></p>
+    <p class = "humidity"></p>
+    <p class = "wind-speed"></p>
+ 
+</div>
+
+<div class = "container" id = " display">
+    <h1 class = "name"></h1>
+    <p class = "desc"></p>
+    <p class = "temp"></p>
+    <p class = "humidity"></p>
+    <p class = "wind-speed"></p>
+   
+</div>
+
+<div class = "container" id = " display">
+    <h1 class = "name"></h1>
+    <p class = "desc"></p>
+    <p class = "temp"></p>
+    <p class = "humidity"></p>
+    <p class = "wind-speed"></p>
+
+</div>
+
+<div class = "container" id = " display">
+    <h1 class = "name"></h1>
+    <p class = "desc"></p>
+    <p class = "temp"></p>
+    <p class = "humidity"></p>
+    <p class = "wind-speed"></p>
+
+</div>
+-->
